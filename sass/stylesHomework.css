@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+}
+
+header .menu {
+    display: inline-block;
+    float: left;
+    width: 100px;
+}
+
+header .boutique {
+    display: inline-block;
+    width: 500px;
+    margin: 0 19%;
+}
+
+header .cart {
+    display: inline-block;
+    float: right;
+    width: 100px;
+}
+
+main {
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    text-shadow: 10px 10px 15px #000;
+}
+
+.title p {
+    text-decoration: underline;
+    word-spacing: 10px;
+}
+
+.content {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.content h3 {
+    color: rgb(235, 160, 172);
+}
+
+.products {
+    display: inline-block;
+    width: 31%;
+    margin-left: 22px;
+    text-align: center;
+}
+
+.buying {
+    background-color: rgb(211, 123, 211);
+    width: 100%;
+}
+
+.buying .paying {
+    display: inline;
+}
+
+.car {
+    width: 3%;
+}
+
+.basket {
+    width: 3%;
+}
+
