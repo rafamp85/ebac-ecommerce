@@ -1,5 +1,6 @@
 $headerBgColor: #333;
 $whiteColor: #fff;
+$grayColor: rgb(213, 200, 200);
 
 %flex {
     display: flex;
@@ -139,6 +140,18 @@ header {
 
     .delete-icon {
         width: 100%;
+    }
+}
+
+.footer {
+    @extend %flex;
+    flex-direction: column;
+    background-color: $headerBgColor;
+    color: $grayColor;
+    gap: 10px;
+    
+    p {
+        margin: 0 auto;
     }
 }
 

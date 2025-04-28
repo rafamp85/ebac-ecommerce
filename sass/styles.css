@@ -1,4 +1,4 @@
-.cart div, header {
+.footer, .cart div, header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,6 +117,16 @@ header i img {
 }
 .cart .delete-icon {
   width: 100%;
+}
+
+.footer {
+  flex-direction: column;
+  background-color: #333;
+  color: rgb(213, 200, 200);
+  gap: 10px;
+}
+.footer p {
+  margin: 0 auto;
 }
 
 @media (max-width: 820px) {
